@@ -1,0 +1,49 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.titulo-sitio {
+    color: #2f4f7f;
+    margin: 0;
+    font-size: 24px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2f4f7f;
+    font-weight: bold;
+}
+
+
+.contenido {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.contenido h2, .contenido p {
+    color: #000;
+    margin: 0 0 10px 0;
+}
+
