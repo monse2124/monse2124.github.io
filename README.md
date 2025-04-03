@@ -46,5 +46,3 @@
 </html>
 
 
-He modificado tu página para que tenga una temática de Corridos Tumbados, incluyendo una sección con imágenes de los artistas. Si quieres agregar más contenido o mejorar el diseño, dime qué más te gustaría ajustar.
-
