@@ -36,7 +36,7 @@
             <p>Tito Doble P</p>
         </div>
         <div class="artista">
-            <img src="junior-h.jpg" alt="Junior H">
+            <img src="b637d5e3c212613a76f22b9f08d6fb35.jpg" alt="Junior H">
             <p>Junior H</p>
         </div>
     </div>
