@@ -1,24 +1,23 @@
-body { font-family: 'Arial', sans-serif; background-color: #1C1C1C; /* Fondo negro intenso / color: #FFD700; / Dorado */ margin: 0; padding: 0; }
+cuerpo { font-family: 'Arial', sans-serif; background-color: #E5D0B6; /* Beige elegante / color: #4E342E; / Café oscuro */ margin: 0; padding: 0; }
 
-header { background-color: #4E342E; /* Café oscuro / padding: 20px; text-align: center; border-bottom: 4px solid #FFD700; / Dorado */ }
+encabezado { fondo: gradiente lineal (a la derecha, #8B5E3B, #4E342E); /* Degradado café / relleno: 20px; alineación del texto: centro; borde inferior: 4px sólido #FFD700; / Dorado */ }
 
-.titulo-sitio { font-size: 2em; text-transform: uppercase; font-weight: bold; color: #FFD700; /* Dorado */ }
+.titulo-sitio { tamaño de fuente: 2.5em; transformación de texto: mayúsculas; peso de fuente: negrita; color: #FFD700; /* Dorado */ espacio entre letras: 2px; }
 
-.menu { list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; }
+.menu { estilo-lista: ninguno; relleno: 0; visualización: flexible; contenido-justificado: centro; espacio: 25px; margen-superior: 10px; }
 
-.menu li { display: inline; }
+.menu li { display: en línea; }
 
-.menu a { text-decoration: none; color: #FFD700; /* Dorado */ font-weight: bold; transition: color 0.3s; }
+.menu a { decoración de texto: ninguna; color: #FFD700; /* Dorado */ peso de fuente: negrita; tamaño de fuente: 1.2em; transición: color 0.3s, transformación 0.2s; }
 
-.menu a:hover { color: #D2B48C; /* Café claro */ }
+.menu a:hover { color: #8B5E3B; /* Café claro */ transform: scale(1.1); }
 
-.contenido { text-align: center; padding: 50px; background-color: #2C2C2C; /* Fondo gris oscuro para contraste */ }
+.contenido { text-align: center; padding: 60px; background-color: #FAE5C3; /* Crema clara para contraste */ border-radius: 15px; margin: 20px auto; width: 80%; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); }
 
-.artistas { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
+.artistas { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px; }
 
-.artista { background-color: #4E342E; /* Café oscuro / padding: 10px; border-radius: 10px; text-align: center; width: 150px; transition: transform 0.3s; color: #FFD700; / Dorado */ }
+.artista { background-color: #8B5E3B; /* Café medio / padding: 15px; border-radius: 15px; text-align: center; width: 180px; transition: transform 0.3s, box-shadow 0.3s; color: #FFD700; / Dorado */ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
 
-.artista img { width: 100%; border-radius: 10px; }
+.artista img { ancho: 100%; radio del borde: 10px; borde: 2px sólido #FFD700; }
 
-.artista:hover { transform: scale(1.1); }
-
+.artista:hover { transformar: escala(1.1); caja-sombra: 0 6px 12px rgba(0, 0, 0, 0.3); }
