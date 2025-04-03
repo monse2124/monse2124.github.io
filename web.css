@@ -1,22 +1,22 @@
-body { font-family: 'Arial', sans-serif; background-color: #000; color: #d4af37; margin: 0; padding: 0; }
+body { font-family: 'Arial', sans-serif; background-color: #000000; /* Negro / color: #FFD700; / Dorado */ margin: 0; padding: 0; }
 
-header { background-color: #3e2723; padding: 20px; text-align: center; border-bottom: 4px solid #d4af37; }
+header { background-color: #4E342E; /* Café oscuro / padding: 20px; text-align: center; border-bottom: 4px solid #FFD700; / Dorado */ }
 
-.titulo-sitio { font-size: 2em; text-transform: uppercase; font-weight: bold; color: #d4af37; }
+.titulo-sitio { font-size: 2em; text-transform: uppercase; font-weight: bold; color: #FFD700; /* Dorado */ }
 
 .menu { list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; }
 
 .menu li { display: inline; }
 
-.menu a { text-decoration: none; color: #d4af37; font-weight: bold; transition: color 0.3s; }
+.menu a { text-decoration: none; color: #FFD700; /* Dorado */ font-weight: bold; transition: color 0.3s; }
 
-.menu a:hover { color: #ffffff; }
+.menu a:hover { color: #D2B48C; /* Café claro */ }
 
 .contenido { text-align: center; padding: 50px; }
 
 .artistas { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
 
-.artista { background-color: #3e2723; padding: 10px; border-radius: 10px; text-align: center; width: 150px; transition: transform 0.3s; }
+.artista { background-color: #4E342E; /* Café oscuro / padding: 10px; border-radius: 10px; text-align: center; width: 150px; transition: transform 0.3s; color: #FFD700; / Dorado */ }
 
 .artista img { width: 100%; border-radius: 10px; }
 
