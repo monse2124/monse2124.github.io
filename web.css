@@ -1,4 +1,4 @@
-body { font-family: 'Arial', sans-serif; background-color: #000000; /* Negro / color: #FFD700; / Dorado */ margin: 0; padding: 0; }
+body { font-family: 'Arial', sans-serif; background-color: #1C1C1C; /* Fondo negro intenso / color: #FFD700; / Dorado */ margin: 0; padding: 0; }
 
 header { background-color: #4E342E; /* Café oscuro / padding: 20px; text-align: center; border-bottom: 4px solid #FFD700; / Dorado */ }
 
@@ -12,7 +12,7 @@ header { background-color: #4E342E; /* Café oscuro / padding: 20px; text-align:
 
 .menu a:hover { color: #D2B48C; /* Café claro */ }
 
-.contenido { text-align: center; padding: 50px; }
+.contenido { text-align: center; padding: 50px; background-color: #2C2C2C; /* Fondo gris oscuro para contraste */ }
 
 .artistas { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
 
