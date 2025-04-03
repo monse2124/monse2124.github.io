@@ -24,7 +24,7 @@
     <p>Explora la música de Natanael Cano, Gabito Ballesteros, Tito Doble P, Junior H y más.</p>
     <div class="artistas">
         <div class="artista">
-            <img src="natanael-cano.jpg" alt="Natanael Cano">
+            <img src="fd3e9c4b1f556b61a53a59ad157a1691.jpg" alt="Natanael Cano">
             <p>Natanael Cano</p>
         </div>
         <div class="artista">
