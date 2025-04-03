@@ -32,7 +32,7 @@
             <p>Gabito Ballesteros</p>
         </div>
         <div class="artista">
-            <img src="tito-doble-p.jpg" alt="Tito Doble P">
+            <img src="7f6d7829f96c9f0d2519968757304b73.jpg" alt="Tito Doble P">
             <p>Tito Doble P</p>
         </div>
         <div class="artista">
