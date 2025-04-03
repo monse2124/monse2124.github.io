@@ -29,7 +29,7 @@
             <p>Natanael Cano</p>
         </div>
         <div class="artista">
-            <img src="gabito-ballesteros.jpg" alt="Gabito Ballesteros">
+            <img src="221fa70b92af517d2130e01e30194f79.jpg" alt="Gabito Ballesteros">
             <p>Gabito Ballesteros</p>
         </div>
         <div class="artista">
