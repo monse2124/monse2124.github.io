@@ -1,48 +1,24 @@
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corridos Tumbados</title>
-    <link rel="stylesheet" href="web.css">
-</head>
-<body>
+body { font-family: 'Arial', sans-serif; background-color: #E5D0B6; /* Beige elegante / color: #4E342E; / Café oscuro */ margin: 0; padding: 0; }
 
-<header>
-    <h1 class="titulo-sitio">Corridos Tumbados</h1>
-    <nav>
-        <ul class="menu">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Artistas</a></li>
-            <li><a href="#">Álbumes</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
+header { background: linear-gradient(to right, #8B5E3B, #4E342E); /* Degradado café / padding: 20px; text-align: center; border-bottom: 4px solid #FFD700; / Dorado */ }
 
-<section class="contenido">
-    <h2>Bienvenido al mundo de los Corridos Tumbados</h2>
-    <p>Explora la música de Natanael Cano, Gabito Ballesteros, Tito Doble P, Junior H y más.</p>
-    <div class="artistas">
-        <div class="artista">
-            <img src="fd3e9c4b1f556b61a53a59ad157a1691.jpg" alt="Natanael Cano">
-            <p>Natanael Cano</p>
-        </div>
-        <div class="artista">
-            <img src="221fa70b92af517d2130e01e30194f79.jpg" alt="Gabito Ballesteros">
-            <p>Gabito Ballesteros</p>
-        </div>
-        <div class="artista">
-            <img src="7f6d7829f96c9f0d2519968757304b73.jpg" alt="Tito Doble P">
-            <p>Tito Doble P</p>
-        </div>
-        <div class="artista">
-            <img src="b637d5e3c212613a76f22b9f08d6fb35.jpg" alt="Junior H">
-            <p>Junior H</p>
-        </div>
-    </div>
-</section>
+.titulo-sitio { font-size: 2.5em; text-transform: uppercase; font-weight: bold; color: #FFD700; /* Dorado */ letter-spacing: 2px; }
 
-</body>
-</html>
+.menu { list-style: none; padding: 0; display: flex; justify-content: center; gap: 25px; margin-top: 10px; }
 
+.menu li { display: inline; }
+
+.menu a { text-decoration: none; color: #FFD700; /* Dorado */ font-weight: bold; font-size: 1.2em; transition: color 0.3s, transform 0.2s; }
+
+.menu a:hover { color: #8B5E3B; /* Café claro */ transform: scale(1.1); }
+
+.contenido { text-align: center; padding: 60px; background-color: #FAE5C3; /* Crema claro para contraste */ border-radius: 15px; margin: 20px auto; width: 80%; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); }
+
+.artistas { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px; }
+
+.artista { background-color: #8B5E3B; /* Café medio / padding: 15px; border-radius: 15px; text-align: center; width: 180px; transition: transform 0.3s, box-shadow 0.3s; color: #FFD700; / Dorado */ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
+
+.artista img { width: 100%; border-radius: 10px; border: 2px solid #FFD700; }
+
+.artista:hover { transform: scale(1.1); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); }
 
