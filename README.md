@@ -22,7 +22,7 @@
 
 <section class="contenido">
     <h2>Bienvenido al mundo de los Corridos Tumbados</h2>
-    <p>Explora la música de Natanael Cano, Gabito Ballesteros, Tito Doble P, Junior H y más.</p>
+    <p>Explora la música de Natanael Cano, Gabito Ballesteros, Tito Doble P, Junior H y más, en este viaje musical conocerás a los artistas del momento.</p>
     <div class="artistas">
         <div class="artista">
             <img src="fd3e9c4b1f556b61a53a59ad157a1691.jpg" alt="Natanael Cano">
