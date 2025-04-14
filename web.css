@@ -1,23 +1,92 @@
-cuerpo { font-family: 'Arial', sans-serif; background-color: #E5D0B6; /* Beige elegante / color: #4E342E; / Café oscuro */ margin: 0; padding: 0; }
 
-encabezado { fondo: gradiente lineal (a la derecha, #8B5E3B, #4E342E); /* Degradado café / relleno: 20px; alineación del texto: centro; borde inferior: 4px sólido #FFD700; / Dorado */ }
 
-.titulo-sitio { tamaño de fuente: 2.5em; transformación de texto: mayúsculas; peso de fuente: negrita; color: #FFD700; /* Dorado */ espacio entre letras: 2px; }
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E5D0B6;
+    color: #4E342E;
+    margin: 0;
+    padding: 0;
+}
 
-.menu { estilo-lista: ninguno; relleno: 0; visualización: flexible; contenido-justificado: centro; espacio: 25px; margen-superior: 10px; }
+header {
+    background: linear-gradient(to right, #8B5E3B, #4E342E);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #FFD700;
+}
 
-.menu li { display: en línea; }
+.titulo-sitio {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFD700;
+    letter-spacing: 2px;
+    margin: 0;
+}
 
-.menu a { decoración de texto: ninguna; color: #FFD700; /* Dorado */ peso de fuente: negrita; tamaño de fuente: 1.2em; transición: color 0.3s, transformación 0.2s; }
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
 
-.menu a:hover { color: #8B5E3B; /* Café claro */ transform: scale(1.1); }
+.menu li {
+    display: inline;
+}
 
-.contenido { text-align: center; padding: 60px; background-color: #FAE5C3; /* Crema clara para contraste */ border-radius: 15px; margin: 20px auto; width: 80%; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); }
+.menu a {
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s, transform 0.2s;
+}
 
-.artistas { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px; }
+.menu a:hover {
+    color: #8B5E3B;
+    transform: scale(1.1);
+}
 
-.artista { background-color: #8B5E3B; /* Café medio / padding: 15px; border-radius: 15px; text-align: center; width: 180px; transition: transform 0.3s, box-shadow 0.3s; color: #FFD700; / Dorado */ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
+.contenido {
+    text-align: center;
+    padding: 60px;
+    background-color: #FAE5C3;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
-.artista img { ancho: 100%; radio del borde: 10px; borde: 2px sólido #FFD700; }
+.artistas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
 
-.artista:hover { transformar: escala(1.1); caja-sombra: 0 6px 12px rgba(0, 0, 0, 0.3); }
+.artista {
+    background-color: #8B5E3B;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 180px;
+    color: #FFD700;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.artista img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #FFD700;
+}
+
+.artista:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
