@@ -10,14 +10,6 @@
 
 <header>
     <h1 class="titulo-sitio">Corridos Tumbados</h1>
-    <nav>
-        <ul class="menu">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Artistas</a></li>
-            <li><a href="#">Álbumes</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
 </header>
 
 <section class="contenido">
