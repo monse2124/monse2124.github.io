@@ -1,0 +1,39 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #fdf6ec;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4c542;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #442e0f;
+}
+
+h2 {
+    color: #442e0f;
+}
+
+a {
+    color: #442e0f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4c542;
+    color: #442e0f;
+    margin-top: 20px;
+}
