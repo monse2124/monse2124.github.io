@@ -10,6 +10,14 @@
 
 <header class="header">
     <h1 class="titulo-sitio">Corridos Tumbados</h1>
+    
+    <nav class="menu">
+        <select onchange="location = this.value;">
+            <option value="#">Selecciona una opción</option>
+            <option value="index.html">Corridos Tumbados</option>
+            <option value="gera.html">Gera MXM</option>
+        </select>
+    </nav>
 </header>
 
 <main class="contenido">
