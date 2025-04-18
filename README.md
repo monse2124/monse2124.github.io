@@ -1,4 +1,3 @@
-
 <html>
 <head>
     <meta charset="UTF-8">
@@ -13,9 +12,8 @@
     
     <nav class="menu">
         <select onchange="location = this.value;">
-            <option value="#">Selecciona una opción</option>
             <option value="index.html">Corridos Tumbados</option>
-            <option value="gera.html">Gera MXM</option>
+            <option value="formulario.html">Gera MXM</option>
         </select>
     </nav>
 </header>
