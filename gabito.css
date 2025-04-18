@@ -10,24 +10,29 @@ header {
     background-color: #f4c542;
     padding: 20px;
     text-align: center;
+    animation: fadeInDown 1s ease;
 }
 
 h1 {
     margin: 0;
     color: #442e0f;
+    animation: fadeIn 1.5s ease;
 }
 
 h2 {
     color: #442e0f;
+    animation: fadeIn 2s ease;
 }
 
 a {
     color: #442e0f;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 a:hover {
     text-decoration: underline;
+    transform: scale(1.05);
 }
 
 footer {
@@ -36,4 +41,37 @@ footer {
     background-color: #f4c542;
     color: #442e0f;
     margin-top: 20px;
+    animation: fadeInUp 1.5s ease;
+}
+
+/* Animaciones */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
