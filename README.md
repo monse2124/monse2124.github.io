@@ -12,7 +12,7 @@
     
     <nav class="menu">
         <select onchange="location = this.value;">
-            <option value="README.md">Corridos Tumbados</option>
+            <option value="index.html">Corridos Tumbados</option>
             <option value="formulario.html">Gera MXM</option>
         </select>
     </nav>
@@ -62,4 +62,4 @@
 </footer>
 
 </body>
-</html>
+</html>            
