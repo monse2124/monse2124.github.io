@@ -4,30 +4,44 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 header {
     background-color: #15202b;
     padding: 20px;
     text-align: center;
+    animation: slideDown 0.8s ease-out;
 }
 
-h1 {
-    margin: 0;
-    color: #ff4b5c;
+@keyframes slideDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
 }
 
-h2 {
+h1, h2 {
     color: #ff4b5c;
+    transition: color 0.3s ease;
+}
+
+h1:hover, h2:hover {
+    color: #ffa8b0;
 }
 
 a {
     color: #ff4b5c;
     text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #ffa8b0;
 }
 
 footer {
@@ -36,4 +50,5 @@ footer {
     background-color: #15202b;
     color: #888;
     margin-top: 20px;
+    animation: fadeIn 1.2s ease-in;
 }
