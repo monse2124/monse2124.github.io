@@ -94,6 +94,7 @@
     <p>&copy; 2025 Corridos Tumbados - Todos los derechos reservados</p>
     <p>Desarrollado por amantes del regional con alma urbana.</p>
 </footer>
+<script src="animaciones.js"></script>
 
 </body>
 </html>                
