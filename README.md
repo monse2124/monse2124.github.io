@@ -10,12 +10,12 @@
 
 <header class="header">
     <h1 class="titulo-sitio">Corridos Tumbados</h1>
-    <p class="subtitulo">La nueva era del regional mexicano con esencia urbana</p>
+    <p class="subtitulo animado">La nueva era del regional mexicano con esencia urbana</p>
 </header>
 
 <main class="contenido">
 
-    <section class="historia-genero">
+    <section class="historia-genero animado">
         <h2>¿Qué son los Corridos Tumbados?</h2>
         <p>
             Muchos no lo saben, pero los elementos de la polka y la música folclórica fueron introducidos a México por europeos en la década de 1830. El sonido de la guitarra y el acordeón fue adaptado por la gente del pueblo, haciéndose música propia. Artistas como Narciso Martínez recuerdan haber escuchado polka desde que eran niños. Con el tiempo, algunos músicos comenzaron a sustituir los instrumentos de latón por otros sonidos, al mismo tiempo que usaban las letras para contar sus propias historias. Estas canciones, muchas veces utilizadas para dar noticias durante la Revolución Mexicana, se conocieron como boleros mexicanos, una base fundamental para los géneros que vendrían después.
@@ -34,18 +34,18 @@
         </p>
     </section>
 
-    <section class="introduccion">
+    <section class="introduccion animado">
         <h2>Bienvenido al universo de los Corridos Tumbados</h2>
         <p>
             Sumérgete en un género musical que desafía las normas, mezclando los corridos tradicionales del norte de México con influencias del trap, hip hop y reguetón. Letras sinceras, narrativas de vida callejera, y un sonido fresco que conecta con las nuevas generaciones.
         </p>
     </section>
 
-    <section class="artistas-destacados">
+    <section class="artistas-destacados animado">
         <h2>Artistas Destacados</h2>
         <div class="artistas">
 
-            <div class="artista">
+            <div class="artista animado">
                 <a href="natanael.html">
                     <img src="fd3e9c4b1f556b61a53a59ad157a1691.jpg" alt="Natanael Cano">
                 </a>
@@ -55,7 +55,7 @@
                 </p>
             </div>
 
-            <div class="artista">
+            <div class="artista animado">
                 <a href="gabito.html">
                     <img src="221fa70b92af517d2130e01e30194f79.jpg" alt="Gabito Ballesteros">
                 </a>
@@ -65,7 +65,7 @@
                 </p>
             </div>
 
-            <div class="artista">
+            <div class="artista animado">
                 <a href="tito.html">
                     <img src="7f6d7829f96c9f0d2519968757304b73.jpg" alt="Tito Doble P">
                 </a>
@@ -75,7 +75,7 @@
                 </p>
             </div>
 
-            <div class="artista">
+            <div class="artista animado">
                 <a href="junior.html">
                     <img src="b637d5e3c212613a76f22b9f08d6fb35.jpg" alt="Junior H">
                 </a>
@@ -90,7 +90,7 @@
 
 </main>
 
-<footer class="footer">
+<footer class="footer animado">
     <p>&copy; 2025 Corridos Tumbados - Todos los derechos reservados</p>
     <p>Desarrollado por amantes del regional con alma urbana.</p>
 </footer>
