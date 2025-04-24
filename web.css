@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    animation: fadeIn 1.5s ease forwards;
+
 }
 
 /* Estilo general */
