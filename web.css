@@ -1,109 +1,115 @@
-/* Reset y fuentes */
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilo general */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     background-color: #121212;
-    color: #e0e0e0;
+    color: #fff;
     line-height: 1.6;
-    padding: 0 1rem;
+    padding: 20px;
 }
 
-/* Encabezado */
+/* Header */
 .header {
-    background-color: #1db954;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 40px 20px;
+    background-color: #1db954;
     color: #121212;
-    border-bottom: 4px solid #1ed760;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .titulo-sitio {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 3em;
     font-weight: bold;
 }
 
 .subtitulo {
-    font-size: 1.2rem;
-    color: #0f0f0f;
+    font-size: 1.3em;
 }
 
-/* Secciones generales */
-main {
+/* Secciones */
+main .contenido {
     max-width: 1000px;
-    margin: 2rem auto;
+    margin: auto;
+    padding: 20px;
 }
 
 section {
-    margin-bottom: 3rem;
+    margin-bottom: 50px;
+    animation: slideUp 1s ease-in-out;
 }
 
+/* Texto */
 h2 {
+    font-size: 2em;
     color: #1db954;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    border-left: 4px solid #1db954;
-    padding-left: 0.5rem;
+    margin-bottom: 15px;
 }
 
 p {
-    margin-bottom: 1rem;
-    text-align: justify;
+    margin-bottom: 15px;
+    color: #e0e0e0;
 }
 
-/* Artistas destacados */
+/* Artistas */
 .artistas {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
 }
 
 .artista {
     background-color: #1e1e1e;
-    border-radius: 12px;
-    padding: 1rem;
+    border-radius: 15px;
+    padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s;
 }
 
 .artista:hover {
-    transform: scale(1.03);
-    box-shadow: 0 6px 14px rgba(0,0,0,0.6);
+    transform: scale(1.05);
+    background-color: #292929;
 }
 
 .artista img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
-    margin-bottom: 0.5rem;
+    border-radius: 10px;
 }
 
 .artista h3 {
+    margin-top: 15px;
     color: #1db954;
-    font-size: 1.2rem;
-    margin: 0.5rem 0;
-}
-
-/* Historia del género */
-.historia-genero {
-    background-color: #181818;
-    padding: 1.5rem;
-    border-left: 6px solid #1db954;
-    border-radius: 10px;
 }
 
 /* Footer */
 .footer {
     text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
+    padding: 30px 10px;
+    border-top: 1px solid #333;
+    margin-top: 40px;
+    font-size: 0.9em;
     color: #aaa;
-    border-top: 2px solid #1db954;
-    margin-top: 4rem;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
