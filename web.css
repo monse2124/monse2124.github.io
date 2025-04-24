@@ -120,4 +120,15 @@ p {
         transform: translateY(0);
         opacity: 1;
     }
+    /* Animación oculta por defecto */
+.animado {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.animado.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 }    
