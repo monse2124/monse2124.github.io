@@ -133,4 +133,13 @@ p {
     opacity: 1;
     transform: translateY(0);
 }
+
+.corridos{
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    animation: fadeIn 2s ease forwards;
+    opacity: 0;
+}
 }    
