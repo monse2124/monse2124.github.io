@@ -42,7 +42,7 @@
     </section>
     <div class="corridos">
     <img src="7ab6e190c1567ab869d15dbc4985446d.jpg" alt="artista">
-    <p> Algunos artistas han destacado en el genero debido a sus letras plasmando en sus canciones, lo que los ha llevado a la cima de ser reconocidos en américa latina, estos artistas han marcado una nueva era en la historia de la música <p>
+    <p> Algunos artistas han destacado en el genero debido a sus letras plasmando en sus canciones, lo que los ha llevado a la cima de ser reconocidos en américa latina, estos artistas han marcado una nueva era en la historia de la música </p>
     </div>
 
     <section class="artistas-destacados animado">
