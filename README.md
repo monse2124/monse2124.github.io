@@ -40,6 +40,9 @@
             Sumérgete en un género musical que desafía las normas, mezclando los corridos tradicionales del norte de México con influencias del trap, hip hop y reguetón. Letras sinceras, narrativas de vida callejera, y un sonido fresco que conecta con las nuevas generaciones.
         </p>
     </section>
+    <div class="corridos">
+    <img src="" alt="artista">
+    </div>
 
     <section class="artistas-destacados animado">
         <h2>Artistas Destacados</h2>
