@@ -41,7 +41,7 @@
         </p>
     </section>
     <div class="corridos">
-    <img src="" alt="artista">
+    <img src="7ab6e190c1567ab869d15dbc4985446d.jpg" alt="artista">
     </div>
 
     <section class="artistas-destacados animado">
