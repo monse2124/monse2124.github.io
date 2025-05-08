@@ -17,28 +17,18 @@
     </nav>
 
 <header class="header">
-    <h1 class="titulo-sitio">Corridos Tumbados</h1>
-    <p class="subtitulo animado">La nueva era del regional mexicano con esencia urbana</p>
+    <h1 class="titulo-sitio">Mundo musical.</h1>
+    <p class="subtitulo animado"> Adéntrate en el mundo de la música sus diferentes estilos y letras, dónde conoceras a diferentes artistas que te harán ver el mundo de una manera diferente</p>
 </header>
 
 <main class="contenido">
 
     <section class="historia-genero animado">
-        <h2>¿Qué son los Corridos Tumbados?</h2>
+        <h2>¿Qué es la musica?</h2>
         <p>
-            Muchos no lo saben, pero los elementos de la polka y la música folclórica fueron introducidos a México por europeos en la década de 1830. El sonido de la guitarra y el acordeón fue adaptado por la gente del pueblo, haciéndose música propia. Artistas como Narciso Martínez recuerdan haber escuchado polka desde que eran niños. Con el tiempo, algunos músicos comenzaron a sustituir los instrumentos de latón por otros sonidos, al mismo tiempo que usaban las letras para contar sus propias historias. Estas canciones, muchas veces utilizadas para dar noticias durante la Revolución Mexicana, se conocieron como boleros mexicanos, una base fundamental para los géneros que vendrían después.
-        </p>
-        <p>
-            La música norteña, interpretada originalmente en zonas rurales, se fue fusionando con los clásicos del bolero, dando lugar a una nueva forma de interpretar la música, conocida como la música ranchera, o “canciones de la tierra”. Décadas más tarde, artistas como Pedro Infante llevaron la música ranchera a su máximo esplendor, y sus baladas románticas fueron reconocidas a nivel mundial como música representativa de México.
-        </p>
-        <p>
-            Más tarde, en los años 70, llegaron Los Tigres del Norte, quienes popularizaron el narcocorrido, un subgénero de los corridos, con la famosa canción ficticia sobre el narcotráfico, "Contrabando y traición". Este corrido fue exitoso y controversial, dando origen al llamado "narcocorrido". Los Tigres del Norte fueron pioneros en este género, pero, debido a su popularidad y el contenido de sus letras, el género fue prohibido en México. Esto obligó a los músicos a mudarse a las ciudades fronterizas y, finalmente, a los Estados Unidos.
-        </p>
-        <p>
-            En esta misma época surgió Chalino Sánchez, un granjero con un corazón de acero y una pasión por el narcocorrido. Chalino llevó la música de las bandas de Sinaloa a otro nivel y escribió canciones que inmortalizaron a narcotraficantes. Al mismo tiempo, en Los Ángeles, se estaba desarrollando un nuevo movimiento musical conocido como el "Gangsta Rap", con una fuerte presencia de mexicoamericanos y afroamericanos que compartían espacios y se influenciaban mutuamente. Al igual que el Gangsta Rap, Chalino Sánchez cantaba sobre la violencia, las drogas y los carteles mexicanos, y se le coronó como el "rey" del narcocorrido.
-        </p>
-        <p>
-            Mientras los corridos tradicionales se estancaban, el Gangsta Rap se generalizó y, respaldado por las discográficas más grandes, se convirtió en un fenómeno popular. Con la llegada de la música trap, los jóvenes artistas mexicanos se sintieron atraídos por la energía y las influencias urbanas del trap y el hip-hop, lo que permitió una nueva fusión. Estos artistas adaptaron las letras de los corridos a los ritmos del trap, creando lo que hoy conocemos como "Corridos Tumbados".
+            
+            
+        
         </p>
     </section>
 
