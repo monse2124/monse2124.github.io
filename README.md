@@ -10,8 +10,8 @@
 <nav>
      <ul class="menu">
          <li><a href="README.md">Inicio</a></li>
-     <li><a href="Corridos.html">Corridos</a></li>
-    <li><a href="trap.html">trap triste</a></li>
+     <li><a href="natanael.html">Natanael Cano</a></li>
+    <li><a href="gabito.html">Gabito ballesteros</a></li>
      <li><a href="rap.html">hip-hop/rap</a></li>
         </ul>
     </nav>
