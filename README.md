@@ -12,7 +12,8 @@
          <li><a href="README.md">Inicio</a></li>
      <li><a href="natanael.html">Natanael Cano</a></li>
     <li><a href="gabito.html">Gabito ballesteros</a></li>
-     <li><a href="rap.html">hip-hop/rap</a></li>
+     <li><a href="tito.html">Tito Doublep</a></li>
+         <li><a href="junior.html">Junior h</a></li>
         </ul>
     </nav>
 
