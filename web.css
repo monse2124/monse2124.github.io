@@ -25,6 +25,20 @@ body {
     animation: fadeIn 1.5s ease forwards;
 }
 
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2f4f7f;
+    font-weight: bold;
+}
+
 /* Títulos */
 .titulo-sitio {
     font-size: 3em;
