@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corridos Tumbados</title>
+    <title>Mundo musical</title>
     <link rel="stylesheet" href="web.css">
 </head>
 <body>
