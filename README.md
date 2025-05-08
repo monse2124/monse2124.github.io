@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="web.css">
 </head>
 <body>
+<nav>
+     <ul class="menu">
+         <li><a href="#">Inicio</a></li>
+     <li><a href="#">Acerca de</a></li>
+         <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
 
 <header class="header">
     <h1 class="titulo-sitio">Corridos Tumbados</h1>
