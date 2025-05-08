@@ -12,7 +12,23 @@ header {
     text-align: center;
     animation: fadeInDown 1s ease;
 }
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
 
+.menu li a {
+    text-decoration: none;
+    color: #eee;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #f39c12;
+}
 h1 {
     margin: 0;
     color: #442e0f;
