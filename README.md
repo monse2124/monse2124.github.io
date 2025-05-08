@@ -9,10 +9,10 @@
 <body>
 <nav>
      <ul class="menu">
-         <li><a href="#">Inicio</a></li>
-     <li><a href="#">Corridos</a></li>
-    <li><a href="#">trap triste</a></li>
-     <li><a href="#">hip-hop/trap</a></li>
+         <li><a href="README.md">Inicio</a></li>
+     <li><a href="Corridos.html">Corridos</a></li>
+    <li><a href="trap.html">trap triste</a></li>
+     <li><a href="rap.html">hip-hop/rap</a></li>
         </ul>
     </nav>
 
