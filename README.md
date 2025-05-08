@@ -40,7 +40,13 @@
     <section class="introduccion animado">
         <h2>Como comenzo la música.?</h2>
         <p>
-            Sumérgete en un género musical que desafía las normas, mezclando los corridos tradicionales del norte de México con influencias del trap, hip hop y reguetón. Letras sinceras, narrativas de vida callejera, y un sonido fresco que conecta con las nuevas generaciones.
+         El origen de la música no ha podido ser determinado. Se estima que comenzó en la prehistoria de la humanidad, a partir de ritos religiosos y de apareamiento.</p><br>
+
+<p>La danza y el canto parecen haber estado desde el principio asociados a la comprensión del mundo. Formaban parte de manifestaciones religiosas o chamánicas, rituales de sanación, cantos de batalla o de cacería, o bailes para atraer la lluvia.</p><br>
+
+<p>El instrumento más antiguo encontrado hasta la fecha es la llamada flauta de Divje Babe, un fémur de oso de más de 43.000 años de antigüedad que presenta dos perforaciones circulares alineadas.</p><br>
+
+<p>La primera canción de la que se tiene registro es un fragmento musical escrito en cuneiforme en Sumeria en el año 1400 a. C. En esta civilización existían instrumentos de percusión y de cuerdas
         </p>
     </section>
     <div class="corridos">
