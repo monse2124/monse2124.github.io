@@ -10,8 +10,9 @@
 <nav>
      <ul class="menu">
          <li><a href="#">Inicio</a></li>
-     <li><a href="#">Acerca de</a></li>
-         <li><a href="#">Contacto</a></li>
+     <li><a href="#">Corridos</a></li>
+    <li><a href="#">trap triste</a></li>
+     <li><a href="#">hip-hop/trap</a></li>
         </ul>
     </nav>
 
