@@ -26,14 +26,19 @@
     <section class="historia-genero animado">
         <h2>¿Qué es la musica?</h2>
         <p>
+            La música es la combinación ordenada de ritmo, melodía y armonía que resulta agradable a los oídos. Por su carácter inmaterial, la música se considera un arte temporal o del tiempo, al igual que la literatura.</p><br>
+
+<p>En el sentido restrictivo, la música es el arte de coordinar y transmitir efectos sonoros, armoniosos y estéticamente válidos, los cuales son generados a través de la voz o de instrumentos musicales.</p><br>
+
+<p>La música es una manifestación artística y cultural de los pueblos, de manera que adquiere diversas formas, valores estéticos y funciones según su contexto. A la vez, es uno de los medios por el cual un individuo expresa sus sentimientos.</p><br>
+<p>La persona que pone en práctica la música o la ejecuta por medio de un instrumento se llama músico.
             
-            
-        
-        </p>
+    </p>
+    <img src="b637d5e3c212613a76f22b9f08d6fb35.jpg" alt="Junior H">
     </section>
 
     <section class="introduccion animado">
-        <h2>Bienvenido al universo de los Corridos Tumbados</h2>
+        <h2>Como comenzo la música.?</h2>
         <p>
             Sumérgete en un género musical que desafía las normas, mezclando los corridos tradicionales del norte de México con influencias del trap, hip hop y reguetón. Letras sinceras, narrativas de vida callejera, y un sonido fresco que conecta con las nuevas generaciones.
         </p>
