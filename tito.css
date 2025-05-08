@@ -23,6 +23,23 @@ header {
     from { transform: translateY(-20px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
 }
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #eee;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #f39c12;
+}
 
 h1, h2 {
     color: #ff4b5c;
