@@ -1,4 +1,4 @@
-/* Reset */
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -6,17 +6,17 @@
 }
 
 body {
-    font-family: 'Georgia', serif;
-    background-color: #f4f4f4;
-    color: #222;
+    font-family: 'Libre Baskerville', serif;
+    background-color: #fdf6ec;
+    color: #2e2e2e;
     line-height: 1.8;
 }
 
 /* Navegación */
 nav {
-    background-color: #2c3e50;
+    background-color: #1b3a4b;
     padding: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .menu {
@@ -27,29 +27,28 @@ nav {
 }
 
 .menu li a {
-    color: #ecf0f1;
+    color: #f0e6d2;
     text-decoration: none;
-    font-weight: 500;
-    font-size: 1.1rem;
+    font-weight: 600;
     padding: 0.5rem;
-    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 .menu li a:hover {
-    background-color: #34495e;
-    border-radius: 5px;
+    color: #ffd166;
 }
 
 /* Encabezado */
 .header {
-    background-color: #e8eaf6;
-    padding: 4rem 2rem;
     text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #ffe6a7, #ffd166);
+    animation: fadeSlideIn 1.5s ease-out;
 }
 
 .titulo-sitio {
     font-size: 3rem;
-    color: #2c3e50;
+    color: #1b3a4b;
     margin-bottom: 1rem;
 }
 
@@ -57,113 +56,12 @@ nav {
     font-size: 1.2rem;
     max-width: 800px;
     margin: 0 auto;
-    color: #555;
+    color: #4f4f4f;
 }
 
 .subtitulo::after {
     content: "Gera mxm";
     display: block;
     font-size: 1.3rem;
-    font-weight: bold;
-    color: #6a1b9a;
-    margin-top: 1rem;
-}
-
-/* Contenido principal */
-main {
-    max-width: 1000px;
-    margin: auto;
-    padding: 2rem;
-}
-
-/* Secciones */
-section {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    padding: 2rem;
-    border-radius: 10px;
-    margin-bottom: 3rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-h2 {
-    color: #6a1b9a;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-}
-
-p {
-    margin-bottom: 1rem;
-    color: #333;
-    font-size: 1.05rem;
-}
-
-/* Imágenes */
-img {
-    width: 100%;
-    max-width: 500px;
-    display: block;
-    margin: 1.5rem auto;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-}
-
-/* Layout en corridos */
-.corridos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.cuento {
-    flex: 2;
-}
-
-.corridos img {
-    flex: 1;
-    max-width: 400px;
-}
-
-/* Pie de página */
-.footer {
-    background-color: #2c3e50;
-    color: #bbb;
-    text-align: center;
-    padding: 2rem 1rem;
-    font-size: 0.9rem;
-    border-top: 4px solid #6a1b9a;
-}
-
-/* Animaciones suaves */
-.animado {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.6s ease-out;
-}
-
-.animado.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .menu {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .titulo-sitio {
-        font-size: 2.2rem;
-    }
-
-    .corridos {
-        flex-direction: column;
-    }
-
-    section {
-        padding: 1.2rem;
-    }
-}
+    color: #1b3a4b;
+    font
