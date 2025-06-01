@@ -130,6 +130,16 @@ footer {
     margin-top: 20px;
     animation: fadeInUp 1s ease;
 }
+    #miVideo {
+  width: 100%;              /* O un tamaño fijo, como 600px */
+  max-width: 800px;         /* Limita el ancho máximo */
+  height: auto;             /* Mantiene la proporción del video */
+  border-radius: 12px;      /* Bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  display: block;           /* Para que se comporte como bloque */
+  margin: 20px auto;        /* Centrado horizontal */
+  background-color: #000;   /* Fondo por si tarda en cargar */
+    }
 
 /* Animaciones */
 @keyframes fadeIn {
