@@ -130,16 +130,33 @@ footer {
     margin-top: 20px;
     animation: fadeInUp 1s ease;
 }
-    #miVideo {
-  width: 100%;              /* O un tamaño fijo, como 600px */
-  max-width: 800px;         /* Limita el ancho máximo */
-  height: auto;             /* Mantiene la proporción del video */
-  border-radius: 12px;      /* Bordes redondeados */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra suave */
-  display: block;           /* Para que se comporte como bloque */
-  margin: 20px auto;        /* Centrado horizontal */
-  background-color: #000;   /* Fondo por si tarda en cargar */
-    }
+    .video-section {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.video-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+#miVideo {
+    width: 100%;
+    height: auto;
+    display: block;
+    outline: none;
+}
 
 /* Animaciones */
 @keyframes fadeIn {
