@@ -1,0 +1,50 @@
+[
+    {
+        "categoria": "Música urbana",
+        "pregunta": "¿Quién popularizó el género de corridos tumbados?",
+        "respuesta": "Natanael Cano",
+        "incorrecta1": "Peso Pluma",
+        "incorrecta2": "Junior H",
+        "incorrecta3": "Fuerza Regida",
+        "imagen": "https://i.ibb.co/hZK4Jbq/natanael-cano.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Música urbana",
+        "pregunta": "¿Qué artista lanzó el álbum \"Génesis\" en 2023?",
+        "respuesta": "Peso Pluma",
+        "incorrecta1": "Bad Bunny",
+        "incorrecta2": "Natanael Cano",
+        "incorrecta3": "Yahritza y su Esencia",
+        "imagen": "https://i.ibb.co/zQ3gskc/peso-pluma.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Música urbana",
+        "pregunta": "¿Cuál es un tema común en los corridos tumbados?",
+        "respuesta": "La vida callejera y el lujo",
+        "incorrecta1": "La conquista de América",
+        "incorrecta2": "Mitología griega",
+        "incorrecta3": "Problemas escolares",
+        "imagen": "https://i.ibb.co/txc4Bd9/corridos-tumbados.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Música urbana",
+        "pregunta": "¿Ciudad natal de Tupac Shakur?",
+        "respuesta": "Nueva York",
+        "incorrecta1": "Los Ángeles",
+        "incorrecta2": "Detroit",
+        "incorrecta3": "Atlanta",
+        "imagen": "https://i.ibb.co/4fTgzy9/tupac.jpg"
+    },
+    {
+        "categoria": "Música urbana",
+        "pregunta": "¿Quién es considerado una leyenda del rap por su álbum 'Illmatic'?",
+        "respuesta": "Nas",
+        "incorrecta1": "Jay-Z",
+        "incorrecta2": "Eminem",
+        "incorrecta3": "Kanye West",
+        "imagen": "https://i.ibb.co/tYxtMp0/nas-illmatic.jpg"
+    }
+]
