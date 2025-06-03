@@ -163,29 +163,30 @@ footer {
     .titulo-sitio {
         font-size: 2rem;
     }
-}
-/* Comentarios */
+}    
+/* --- Comentarios y Formulario --- */
 
 .comentarios-content {
     text-align: center;
     z-index: 1;
     width: 100%;
     padding: 0 20px;
+    animation: fadeIn 1.5s ease;
 }
 
 .comentarios-content h1 {
     font-size: 30px;
     line-height: 130px;
-    color: #121212;
+    color: #00ffae;
     text-transform: uppercase;
     margin-bottom: 35px;
 }
 
 .comentarios-content p {
     font-size: 20px;
-    color: #121212;
+    color: #ccc;
     line-height: 1.3;
-    padding: 0 250px;
+    padding: 0 50px;
     margin-bottom: 45px;
 }
 
@@ -198,59 +199,85 @@ section.formulario-coment {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    background: #E0EEEF;
-    border-radius: 10px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    padding: 20px;
+    background: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 255, 174, 0.2);
+    padding: 30px;
     max-width: 1000px;
     margin: auto;
+    transition: transform 0.3s ease;
 }
 
-.formulario{
+.formulario-coment .contenedor:hover {
+    transform: scale(1.01);
+}
+
+.formulario {
     flex: 1;
     min-width: 300px;
 }
 
 .formulario h2 {
-    color: #121212;
+    color: #00ffae;
     margin-bottom: 20px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 form label {
     display: block;
     margin-bottom: 10px;
-    color: #121212;
+    color: #f5f5f5;
     font-weight: bold;
 }
-form input, form textarea {
+
+form input,
+form textarea {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin-top: 4px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    border-radius: 6px;
+    border: 1px solid #333;
     margin-bottom: 15px;
     font-size: 16px;
-    transition: border-color 0.3s ease;
+    background-color: #0e0e0e;
+    color: #fff;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
 }
 
-form input:focus, form textarea:focus {
-    border-color: #19386F;
+form input:focus,
+form textarea:focus {
+    border-color: #00ffae;
     outline: none;
+    background-color: #1e1e1e;
 }
 
 form button {
     margin-top: 20px;
-    background-color: #19386F;
-    color: #ffffff;
-    padding: 10px 20px;
+    background-color: #00ffae;
+    color: #0e0e0e;
+    padding: 12px 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 form button:hover {
-    background-color: #121212;
+    background-color: #ffffff;
+    color: #121212;
+    transform: scale(1.05);
+}
+
+/* Responsive para formulario */
+@media (max-width: 768px) {
+    .comentarios-content p {
+        padding: 0 20px;
+    }
+
+    .formulario-coment .contenedor {
+        flex-direction: column;
+    }
     }
