@@ -1,5 +1,61 @@
-<html>
-  <body>
-    su comentario fue enviado 
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="5;url=index.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comentario Enviado</title>
+  <style>
+    body {
+      background: #f0f4f8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: white;
+      padding: 2rem 3rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 400px;
+    }
+
+    h1 {
+      color: #2c3e50;
+    }
+
+    p {
+      color: #555;
+      margin-top: 1rem;
+    }
+
+    .spinner {
+      margin: 20px auto;
+      border: 4px solid #eee;
+      border-top: 4px solid #3498db;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>¡Gracias por tu comentario!</h1>
+    <p>Tu mensaje ha sido enviado correctamente.</p>
+    <div class="spinner"></div>
+    <p>Serás redirigido al inicio en unos segundos...</p>
+    <p><small>Si no eres redirigido, haz clic <a href="index.html">aquí</a>.</small></p>
+  </div>
+</body>
 </html>
