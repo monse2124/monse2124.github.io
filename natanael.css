@@ -164,3 +164,93 @@ footer {
         font-size: 2rem;
     }
 }
+/* Comentarios */
+
+.comentarios-content {
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.comentarios-content h1 {
+    font-size: 30px;
+    line-height: 130px;
+    color: #121212;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.comentarios-content p {
+    font-size: 20px;
+    color: #121212;
+    line-height: 1.3;
+    padding: 0 250px;
+    margin-bottom: 45px;
+}
+
+section.formulario-coment {
+    padding: 30px 20px;
+}
+
+.formulario-coment .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background: #E0EEEF;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.formulario{
+    flex: 1;
+    min-width: 300px;
+}
+
+.formulario h2 {
+    color: #121212;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #121212;
+    font-weight: bold;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #19386F;
+    outline: none;
+}
+
+form button {
+    margin-top: 20px;
+    background-color: #19386F;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #121212;
+    }
