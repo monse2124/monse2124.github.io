@@ -12,7 +12,7 @@ header {
     text-align: center;
     animation: fadeInDown 1s ease;
 }
-  .menu
+  .menu{
    list-style: none;
     display: flex;
     justify-content: center;
