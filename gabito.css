@@ -12,8 +12,8 @@ header {
     text-align: center;
     animation: fadeInDown 1s ease;
 }
-.menu {
-    list-style: none;
+  .menu
+   list-style: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
