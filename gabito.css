@@ -16,18 +16,28 @@ header {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 10px 0;
 }
 
-.menu li a {
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: #f5f5f5;
     text-decoration: none;
-    color: #442e0f;
     font-weight: bold;
-    transition: color 0.3s ease;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.menu li a:hover {
-    color: #442e0f;
+.menu a:hover {
+    background-color: #00ffae;
+    color: #0e0e0e;
+    transform: scale(1.1);
 }
 h1 {
     margin: 0;
